@@ -7,7 +7,7 @@ resource "aws_ecs_task_definition" "default" {
 [
   {
     "name": "wordpress",
-    "image": "310065639301.dkr.ecr.us-east-1.amazonaws.com/nginx-proxy:latest",
+    "image": "310065639301.dkr.ecr.us-east-1.amazonaws.com/wordpress:latest",
     "essential": true,
     "portMappings": [
       {
